@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personalized plant care subscription service offering tailored monthly kits for happy and healthy plants.">
+  <title>Personalized Plant Care Subscription</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+    <div class="container" id="TopContainer">
+      <div class="logo" aria-label="PlantCare+ logo">🌱 <span>PlantCare+</span></div>
+      <nav class="nav" aria-label="Main Navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#subscribe">Subscribe</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container">
+        <h1>Keep Your Plants Thriving</h1>
+        <p>Monthly care kits tailored to your plants' needs.</p>
+        <a href="#subscribe" class="cta-button">Get Started</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>Why Choose Us?</h2>
+        <p>We help you grow happy and healthy plants with personalized kits, expert advice, and eco-friendly solutions.</p>
+        <img src="man-taking-care-plants-medium-shot_23-2149383660.avif" alt="Person taking care of plants" class="about-image" style="height: 400px; width:600px;">
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="container">
+        <h2>What's Included?</h2>
+        <ul class="features-list">
+          <li class="feature-item">
+            <h3>Custom Fertilizers</h3>
+            <p>Specialized blends for your plants' growth stage.</p>
+          </li>
+          <li class="feature-item">
+            <h3>Pest Control</h3>
+            <p>Natural solutions to keep pests away.</p>
+          </li>
+          <li class="feature-item">
+            <h3>Growth Enhancers</h3>
+            <p>Boost your plants' health and vitality.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="subscribe" class="subscribe">
+      <div class="container">
+        <h2>Subscribe Now</h2>
+        <form id="subscription-form" class="subscription-form">
+          <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Your Full Name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com">
+          </div>
+          <div class="form-group">
+            <label for="plant">Type of Plant:</label>
+            <input type="text" id="plant" name="plant" required placeholder="E.g., Succulent, Fern">
+          </div>
+          <div class="form-group">
+            <label for="frequency">Delivery Frequency:</label>
+            <select id="frequency" name="frequency" required>
+              <option value="" disabled selected>Select Frequency</option>
+              <option value="monthly">Monthly</option>
+              <option value="bi-monthly">Bi-Monthly</option>
+            </select>
+          </div>
+          <button type="submit" class="submit-button">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us!</p>
+        <ul class="contact-info">
+          <li>Email: <a href="mailto:support@plantcare.com">support@plantcare.com</a></li>
+          <li>Phone: <a href="tel:+1234567890">+1 234-567-890</a></li>
+        </ul>
+        <div class="social-media">
+          <a href="#" aria-label="Visit our Facebook"><img src="facebook icon.avif" alt="Facebook"></a>
+          <a href="#" aria-label="Visit our Instagram"><img src="Instagram_icon.png.webp" alt="Instagram"></a>
+          <a href="#" aria-label="Visit our Twitter"><img src="download.png" alt="Twitter"></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 PlantCare+. All Rights Reserved.</p>
+      <p><a href="#hero">Back to Top</a></p>
+    </div>
+  </footer>
+</body>
+</html>
